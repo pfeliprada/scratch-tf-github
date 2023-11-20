@@ -1,0 +1,13 @@
+name: "Github Cron"
+
+on:
+  schedule:
+    # - cron: '30 7 * * 6'
+    - cron: '1 * * * *'
+
+jobs:
+  github_cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Every Time
+        run: echo "This will run every minute"
