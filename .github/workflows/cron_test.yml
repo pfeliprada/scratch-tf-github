@@ -2,8 +2,7 @@ name: "Github Cron"
 run-name: ${{ github.actor }} is learning GitHub Cron
 
 on:
-  schedule:
-    - cron: '* * * * *'
+  workflow_dispatch
 
 env:
   TF_CLOUD_ORGANIZATION: "FelipradaPhilip"
