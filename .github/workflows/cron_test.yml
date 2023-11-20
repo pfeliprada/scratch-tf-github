@@ -1,12 +1,12 @@
 name: "Github Cron"
+run-name: ${{ github.actor }} is learning GitHub Cron
 
 on:
   schedule:
-    # - cron: '30 7 * * 6'
-    - cron: '1 * * * *'
+    - cron: '5 * * * *'
 
 jobs:
-  github_cron:
+  test-github-cron:
     runs-on: ubuntu-latest
     steps:
       - name: Every Time
