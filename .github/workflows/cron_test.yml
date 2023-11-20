@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is learning GitHub Cron
 
 on:
   schedule:
-    - cron: '1 * * * *'
+    - cron: '* * * * *'
 
 env:
   TF_CLOUD_ORGANIZATION: "FelipradaPhilip"
