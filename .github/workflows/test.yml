@@ -7,7 +7,7 @@ env:
   TF_CLOUD_ORGANIZATION: "FelipradaPhilip"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "scratch-tf-github"
-  CONFIG_DIRECTORY: "/Users/philiplloydfeliprada/scratch-tf-github"
+  CONFIG_DIRECTORY: "./"
 
 jobs:
   terraform:
